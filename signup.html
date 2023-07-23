@@ -1,0 +1,55 @@
+<HTML>
+<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="dmy.css">
+	<HEAD>
+		<TITLE>DIGITAL MARKET YARD</TITLE>
+		<SCRIPT>
+			function VALIDATEFORM()
+			{
+				var pn=/^\d{10}$/;
+				var pw=document.login.PW.value;
+				var MN=document.login.MN.value;
+				if(!MN.match(pn))
+				{	alert("mobile no is invalid ");
+					return false;
+				}
+				else if(pw==null ||pw=="")
+				{
+					alert("password is invalid ");
+					return false;
+				}
+				else 
+				{
+					return true;
+				}
+			}	
+		</SCRIPT>
+	</HEAD>
+	<BODY>
+		<p ALIGN="CENTER">DIGI YARD</p>
+		<div class="myDiv">
+		<FORM NAME="login" ACTION="signup.php" METHOD="post" ONSUBMIT="return VALIDATEFORM()">
+		<H1>SIGN-UP</H1>
+			<TABLE ALIGN="CENTER">
+				<TR>
+					<TD>NAME:</TD>
+					<TD><INPUT TYPE="text" NAME="NA"></TD>
+				</TR>
+				<TR>
+					<TD>MOBILE NO:</TD>
+					<TD><INPUT TYPE="text" NAME="MN"></TD>
+				</TR>
+				<TR>
+					<TD>PASSWORD:</TD>
+					<TD><INPUT TYPE="PASSWORD" NAME="PW"></TD>
+				</TR>
+				<TR>
+					<TD ALIGN="CENTER"colspan="2">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD ALIGN="CENTER"colspan="2"><INPUT TYPE="SUBMIT" VALUE="SIGN-UP"></TD>
+				</TR>
+			</TABLE>
+		</FORM>
+		</div>
+	</BODY>
+</HTML>

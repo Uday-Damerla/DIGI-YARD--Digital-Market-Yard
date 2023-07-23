@@ -1,0 +1,85 @@
+BODY{
+		background-color: #f5deb3;
+	}
+
+.myDiv {position:relative;
+					left: 31%;
+					top: 5%;
+					width: 530px;
+					height: 320px;
+					background-color: white;    
+					text-align: center;
+					}
+			p {
+				font-weight:bold;
+				font-size: 90px;
+				color:white;
+				}
+			.button1,.button2 {
+						border: none;
+						color: white;
+						text-align: center;
+						text-decoration: none;
+						display: inline-block;
+						font-size: 46px;
+						margin: 4px 2px;
+						cursor: pointer;
+						border-radius: 8px;
+						padding: 20px 40px;
+					}
+			.button1 {background-color: #008CBA;} 
+            .button2 {background-color: #f44336;}
+			
+			input[type=text], select {
+		  width: 100%;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		}
+		
+		input[type=password]{
+		  width: 100%;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		}
+
+		input[type=submit] {
+		  width: 100%;
+		  background-color: #4CAF50;
+		  color: white;
+		  padding: 14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+		  background-color: #45a049;
+		}
+
+		div {
+		  border-radius: 5px;
+		  background-color: #c9ffe5;
+		  padding: 20px;
+		}
+		
+		#divp {
+				  border-radius: 5px;
+				  background-color:#c9ffe5;
+				  padding: 8px;
+				  padding-bottom:10px;
+				  width: 30%;
+				  margin: 50px;
+				}
+			td{
+				font-weight:bold;
+				font-size: 20px;
+			  }

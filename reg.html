@@ -1,0 +1,101 @@
+<html>
+<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="dmy.css">
+	<HEAD>
+		<TITLE>DIGITAL MARKET YARD</TITLE>
+	<HEAD>
+<BODY>
+<div>
+  <form  name="reg" action="add.php" METHOD="POST" enctype="multipart/form-data">
+    
+
+    <label for="DISTICT">Distict</label>
+    <select id="DISTICT" name="DISTICT">
+	  <option value="">SELECT</option>
+      <option value="Adilabad">Adilabad</option>
+      <option value="Bhadradri Kothagudem">Bhadradri Kothagudem</option>
+	  <option value="Hanamkonda">Hanamkonda</option>
+	  <option value="Hyderabad">Hyderabad</option>
+	  <option value="Jagitial">Jagitial</option>
+	  <option value="Jangaon">Jangaon</option>
+	  <option value="Jayashankar Bhupalpally">Jayashankar Bhupalpally</option>
+	  <option value="Jogulamba Gadwal">Jogulamba Gadwal</option>
+	  <option value="Kamareddy">Kamareddy</option>
+	  <option value="Karimnagar">Karimnagar</option>
+	  <option value="Khammam">Khammam</option>
+	  <option value="Kumuram Bheem">Kumuram Bheem</option>
+	  <option value="Mahabubabad">Mahabubabad</option>
+	  <option value="Mahabubnagar">Mahabubnagar</option>
+	  <option value="Mancherial">Mancherial</option>
+	  <option value="Medak">Medak</option>
+	  <option value="Medchal–Malkajgiri">Medchal Malkajgiri</option>
+	  <option value="Mulugu">Mulugu</option>
+	  <option value="Nagarkurnool">Nagarkurnool</option>
+      <option value="Narayanpet">Narayanpet</option>
+	  <option value="Nalgonda">Nalgonda</option>
+	  <option value="Nirmal">Nirmal</option>
+	  <option value="Nizamabad">Nizamabad</option>
+	  <option value="Peddapalli">Peddapalli</option>
+	  <option value="Rajanna Sircilla">Rajanna Sircilla</option>
+	  <option value="Ranga Reddy">Ranga Reddy</option>
+	  <option value="Sangareddy">Sangareddy</option>
+	  <option value="Siddipet">Siddipet</option>
+	  <option value="Suryapet">Suryapet</option>
+	  <option value="Vikarabad">Vikarabad</option>
+	  <option value="Wanaparthy">Wanaparthy</option>
+	  <option value="Warangal">Warangal</option>
+	  <option value="Yadadri Bhuvanagiri">Yadadri Bhuvanagiri</option>
+    </select>
+	
+	<label for="crop">Crop</label>
+		<select id="crop" name="crop">
+		  <option value="">SELECT</option>
+		  <option value="Paddy">Paddy</option>
+		  <option value="Cotton">Cotton</option>
+		  <option value="Chilli">Chilli</option>
+		  <option value="Corn">Corn</option>
+		  <option value="Jowar">Jowar</option>
+		  <option value="Groundnut">Groundnut</option>
+		  <option value="Turmuric">Turmuric</option>
+		  <option value="Mango">Mango</option>
+		  <option value="Wheat">Wheat</option>
+		  <option value="Seasam">Seasam</option>
+		</select>
+	
+	<label for="age">Crop age(months):</label>
+		<select name="age" id="age">
+		  <option value="1">1</option>
+		  <option value="2">2</option>
+		  <option value="3">3</option>
+		  <option value="4">4</option>
+		  <option value="5">5</option>
+		  <option value="6">6</option>
+		  <option value="7">7</option>
+		  <option value="8">8</option>
+		  <option value="9">9</option>
+		  <option value="10">10</option>
+		  <option value="11">11</option>
+		  <option value="12">12</option>
+		</select>
+		
+		<label for="QUANTITY">QUANTITY</label>
+		<input type="text" id="QUANTITY" name="QUANTITY" placeholder="QUANTITY (IN QUINTALS)..">
+		
+		<label for="QUALITY">QUALITY/GRADE/TYPE</label>
+		<input type="text" id="QUALITY" name="QUALITY" placeholder="..">
+		
+		<label for="PRICE">PRICE</label>
+		<input type="text" id="PRICE" name="PRICE" placeholder="PER QUINTAL.......">
+		UPLOAD 3 IMAGEs OF CROP:<BR>
+		<input type="file" name="IMG1">
+		<input type="file" name="IMG2">
+		<input type="file" name="IMG3"><BR>
+	
+	<label for="discription">Crop discription:</label><br>
+	<textarea id="discription" name="discription" rows="4" cols="50">Discription upto 250 char....</textarea>
+  
+    <input type="submit"  value="Submit" name="Submit">
+  </form>
+</div>
+
+</body>
+</html>
